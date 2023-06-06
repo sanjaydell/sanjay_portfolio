@@ -1,9 +1,13 @@
 .app {
     height: 100vh;
-}
+     &::-webkit-scrollbar {
+    display: none;
+  }
 
+}
 .container {
-    height: 90vh;
+    // height: 90vh;
+    margin-top: 8vh;
     // position: relative;
     // background-color: aqua;
     scroll-behavior: smooth;
@@ -13,9 +17,9 @@
       display: none;
     }
 
-    // >* {
-    //     width: 100vw;
-    //     height: calc(100vh - 70px);
-    //     scroll-snap-align: start;
-    //   }
+    >* {
+        // width: 100vw;
+        height: calc(92vh);
+        scroll-snap-align: start;
+      }
 }
