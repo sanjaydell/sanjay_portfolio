@@ -1,7 +1,14 @@
 .header {
-    background-color: white;
-    height: 8vh;
-    position: fixed;
-    top: 0;
-    width: 100%;
-};
+  display: flex;
+  justify-content: flex-end;
+  background-color: white;
+  height: 8vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header-button {
+  color: black !important;
+  font-weight: 600 !important;
+}

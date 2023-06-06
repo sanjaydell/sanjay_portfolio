@@ -5,11 +5,11 @@ import { Button } from '@mui/material'
 function Header() {
   return (
     <div className='header'>
-      <Button>Intro</Button>
-      <Button>About</Button>
-      <Button>Projects</Button>
-      <Button>Experience</Button>
-      <Button>Contact</Button>
+      <Button className='header-button'>Intro</Button>
+      <Button className='header-button'>About</Button>
+      <Button className='header-button'>Projects</Button>
+      <Button className='header-button'>Experience</Button>
+      <Button className='header-button'>Contact</Button>
     </div>
   )
 }
