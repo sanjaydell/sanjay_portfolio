@@ -4,7 +4,7 @@ import { Typography } from "@mui/material";
 
 function About() {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <Typography variant="h3">About Me</Typography>
       <Typography variant="h5">A Fullstack developer</Typography>
     </div>

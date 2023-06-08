@@ -10,6 +10,66 @@
   }
 }
 
-.intro-content {
+.image-box {
+  background-color: black;
+  width: 200px;
+  height: 220px;
+}
 
+// .image {
+//   width: 100px;
+//   height: 100px;
+// }
+
+.intro-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.profession-box {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.profession::before {
+  content: "Full-Stack Developer";
+  animation: animate infinite 4s;
+  padding-left: 10px;
+}
+
+@keyframes animate {
+  0% {
+    content: "Full-Stack Developer";
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  10% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  50% {
+    opacity: 0;
+    transform: translateX(-20px);
+    content: "Front-End Developer";
+  }
+
+  60% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  // 75% {
+  //     content: "Web Designer";
+  // }
+
+  //   0% {
+  //     opacity: 0;
+  //     transform: translateX(-20px);
+  //  }
+  //  10% {
+  //     opacity: 1;
+  //     transform: translateX(0);
+  //  }
 }
