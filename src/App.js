@@ -5,6 +5,7 @@ import Introduction from "./features/introduction/Introduction";
 import About from "./features/about/About";
 import Projects from "./features/projects/Projects";
 import Contacts from "./features/contacts/Contacts";
+import Experience from "./features/experience/Experience";
 
 function onRender(
   id,
@@ -39,6 +40,7 @@ function App() {
           <Introduction />
           <About />
           <Projects />
+          <Experience />
           <Contacts />
         </div>
       </Profiler>

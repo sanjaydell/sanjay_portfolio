@@ -1,10 +1,21 @@
 .header {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: row;
   background-color: white;
   height: 8vh;
   position: fixed;
   top: 0;
+  width: 100%;
+}
+
+.left {
+  width: 100%;
+  margin: 0;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
   width: 100%;
 //   opacity: 50%;
 }
