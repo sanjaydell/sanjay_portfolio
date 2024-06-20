@@ -15,20 +15,6 @@ function onRender(
   startTime,
   commitTime
 ) {
-  // Aggregate or log render timings...
-  console.log(
-    "onRender",
-    id,
-    phase,
-    "actualDuration",
-    actualDuration,
-    "baseDuration",
-    baseDuration,
-    "startTime",
-    startTime,
-    "commitTime",
-    commitTime
-  );
 }
 
 function App() {
