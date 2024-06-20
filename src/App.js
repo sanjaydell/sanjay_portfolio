@@ -20,13 +20,13 @@ function onRender(
     "onRender",
     id,
     phase,
-    'actualDuration',
+    "actualDuration",
     actualDuration,
-    'baseDuration',
+    "baseDuration",
     baseDuration,
-    'startTime',
+    "startTime",
     startTime,
-    'commitTime',
+    "commitTime",
     commitTime
   );
 }
